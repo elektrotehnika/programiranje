@@ -8,6 +8,10 @@
 
 [II недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWkvpLVK9_9nqdrhPahl8GB55)
 
+[III недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWktZpHCcDDQdtaGTb5LaW_26)
+
+
+
 ## Оцењивање
 
 Предиспитне обавезе: 50% оцене
