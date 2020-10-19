@@ -10,7 +10,7 @@
 
 [III недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWktZpHCcDDQdtaGTb5LaW_26)
 
-
+[IV недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWkvYNmQ6_XErTQkdMrndX8o3)
 
 ## Оцењивање
 
