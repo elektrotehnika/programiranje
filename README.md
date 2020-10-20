@@ -12,6 +12,12 @@
 
 [IV недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWkvYNmQ6_XErTQkdMrndX8o3)
 
+## Консултације
+
+[I консултације](https://zoom.us/j/8421213500?pwd=U3VQLzN1c0taOVB6eHVOeXFwUjMyQT09)
+
+Термин: петак 23. октобар 2020. године у од 12:15 до 12:59.
+
 ## Оцењивање
 
 Предиспитне обавезе: 50% оцене
