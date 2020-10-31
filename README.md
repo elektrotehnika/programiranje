@@ -16,7 +16,9 @@
 
 [V недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWkuKXkVEyz3D83R1ZIcrfDMR)
 
-VI недеља предавања
+[VI недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWkss_k0chVV-N0doolcT2Sy9)
+
+VII недеља предавања
 
 ## Демонстрације
 
