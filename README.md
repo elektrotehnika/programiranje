@@ -9,8 +9,10 @@
 ## Пробни колоквијум
 
 Пробни колоквијум ће се одржати у суботу 7. новембра 2020. са почетком у 10 часова.
-[Распоред по учионицама](https://github.com/elektrotehnika/programiranje/blob/master/Raspored.pdf)
-Пробни колоквијум се може полагати и од куће и наћи ће се на [Петља арени](https://arena.petlja.org/)
+
+[Распоред по учионицама](https://github.com/elektrotehnika/programiranje/blob/master/Raspored.pdf).
+
+Пробни колоквијум се може полагати и од куће и наћи ће се на [Петља арени](https://arena.petlja.org/).
 
 ## Настава
 
