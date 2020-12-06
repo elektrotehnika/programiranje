@@ -26,7 +26,9 @@
 
 [VIII недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWksadwze1UubMe9FeXi8P8DZ)
 
-IX недеља предавања
+[IX недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWktUZY8nPLDb7LUphXpKdDUb)
+
+X недеља предавања
 
 ## Демонстрације
 
