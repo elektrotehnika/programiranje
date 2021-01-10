@@ -6,9 +6,9 @@
 
 демонстратор: Никола Радовановић
 
-## Резултати колоквијума
+## Услов за рад испита
 
-Коначни [резултати](https://docs.google.com/spreadsheets/d/1jqOtIWxtkbvF5T8qglP1CZtBBfqk8tb726GvqD23G4E/edit?usp=sharing) колоквијума из Основа програмирања.
+Студенти који су пријавили испит биће додавани у Петљино окружење за полагање испита преко своје званичне адресе електронске поште која је унета у студентској служби. Стога је важно да студенти којима је адреса е-поште погрешна, захтевом студентској служби измене своју адресу пошто у супротом неће бити у могућности да раде испит.
 
 ## Настава
 
@@ -28,7 +28,15 @@
 
 [IX недеља предавања](https://www.youtube.com/playlist?list=PLrX06AvZJWktUZY8nPLDb7LUphXpKdDUb)
 
-X недеља предавања
+[X недеља предавања](https://youtube.com/playlist?list=PLrX06AvZJWks9ZDTgHHvAobOIIfRmV-wk)
+
+[XI недеља предавања](https://youtube.com/playlist?list=PLrX06AvZJWku843w8LTl2-3BoSBm3ooIK)
+
+XII недеља предавања
+
+## Резултати колоквијума
+
+Коначни [резултати](https://docs.google.com/spreadsheets/d/1jqOtIWxtkbvF5T8qglP1CZtBBfqk8tb726GvqD23G4E/edit?usp=sharing) колоквијума из Основа програмирања.
 
 ## Демонстрације
 
