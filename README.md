@@ -34,9 +34,9 @@
 
 [XII недеља предавања](https://youtube.com/playlist?list=PLrX06AvZJWksg5qWZpblniSV6tg-tE0pL)
 
-[XIII недеља предавања]
+XIII недеља предавања
 
-## Резултати колоквијума
+## Резултати колоквијума и испита
 
 Коначни [резултати](https://docs.google.com/spreadsheets/d/1jqOtIWxtkbvF5T8qglP1CZtBBfqk8tb726GvqD23G4E/edit?usp=sharing) колоквијума из Основа програмирања.
 
