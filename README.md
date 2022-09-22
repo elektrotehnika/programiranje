@@ -129,7 +129,7 @@
 
 Задатке је могуће вежбати у оквиру збирке која постоји као такмичење на [Петљи](https://arena.petlja.org/competition/zbirka). Збирка се састоји од задатака са претходних колоквијума и испита где су сви тест примери јавни и такмичење нема крај.
 
-<details markdown='span'>
+<details markdown='block'>
 <summary>Додатно, лаки и средње тешки задаци, могу се вежбати и на:</summary>
 
 * [AlgoExpert][AlgoExpert]
@@ -200,7 +200,7 @@
 
 ### Оцене
 
-<details markdown='span'>
+<details markdown='block'>
 <summary>Оцена (100 поена): испит (50 поена) + ПИО (50 поена)</summary>
 
 * **5**: од 0 до 50 поена
