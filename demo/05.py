@@ -10,7 +10,7 @@ def примениДвапут(f, x):
     2.0
     """
     return f(f(x))
-
+    
 def квадрат(x):
     return x * x
 
@@ -51,7 +51,7 @@ def композиција1(f, g):
         return f(g(x))
     return h
 
-def triple(x):
+def трострук(x):
     return 3 * x
 
 квострук = композиција1(квадрат, трострук)
