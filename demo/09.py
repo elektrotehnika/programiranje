@@ -1,9 +1,9 @@
-# Ordering
+# Уређивање
 
-def cascade(n):
-    """Print a cascade of prefixes of n.
+def каскада(n):
+    """Исписује каскаду префикса природног броја n.
 
-    >>> cascade(1234)
+    >>> каскада(1234)
     1234
     123
     12
@@ -16,20 +16,20 @@ def cascade(n):
         print(n)
     else:
         print(n)
-        cascade(n//10)
+        каскада(n//10)
         print(n)
 
-def cascade2(n):
-    """Print a cascade of prefixes of n."""
+def алтернативнаКаскада(n):
+    """Исписује каскаду префикса природног броја n."""
     print(n)
     if n >= 10:
-        cascade(n//10)
+        алтернативнаКаскада(n//10)
         print(n)
 
-def inverse_cascade(n):
-    """Print an inverse cascade of prefixes of n.
+def инверзна_каскада(n):
+    """Исписује инверзну каскаду префикса природног броја n.
 
-    >>> inverse_cascade(1234)
+    >>> инверзна_каскада(1234)
     1
     12
     123
@@ -38,24 +38,24 @@ def inverse_cascade(n):
     12
     1
     """
-    grow(n)
+    расте(n)
     print(n)
-    shrink(n)
+    опада(n)
 
-def f_then_g(f, g, n):
+def f_па_g(f, g, n):
     if n:
         f(n)
         g(n)
 
-grow = lambda n: f_then_g(grow, print, n//10)
-shrink = lambda n: f_then_g(print, shrink, n//10)
+расте = lambda n: f_па_g(расте, print, n//10)
+опада = lambda n: f_па_g(print, опада, n//10)
 
-# Tree recursion
+# Стабло рекурзије
 
-def fib(n):
-    """Compute the nth Fibonacci number.
+def фиб(n):
+    """Израчунава n-ти Фибоначијев број.
 
-    >>> fib(8)
+    >>> фиб(8)
     21
     """
     if n == 0:
@@ -63,14 +63,14 @@ def fib(n):
     elif n == 1:
         return 1
     else:
-        return fib(n-2) + fib(n-1)
+        return фиб(n-2) + фиб(n-1)
 
-def count_partitions(n, m):
-    """Count the partitions of n using parts up to size m.
+def број_партиција(n, m):
+    """Броји партиције од n користећи се сабирцима мањим или једнаким m.
 
-    >>> count_partitions(6, 4)
+    >>> број_партиција(6, 4)
     9
-    >>> count_partitions(10, 10)
+    >>> број_партиција(10, 10)
     42
     """
     if n == 0:
@@ -80,6 +80,6 @@ def count_partitions(n, m):
     elif m == 0:
         return 0
     else:
-        with_m = count_partitions(n-m, m)
-        without_m = count_partitions(n, m-1)
-        return with_m + without_m
+        са_m = број_партиција(n-m, m)
+        без_m = број_партиција(n, m-1)
+        return са_m + без_m
