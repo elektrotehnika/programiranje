@@ -30,7 +30,7 @@ def dict_demos():
     римски.values()
     list(римски.values())
     sum(римски.values())
-    dict([[3, 9], [4, 16]]
+    dict([[3, 9], [4, 16]])
     римски.get('X', 0)
     римски.get('X-зрак', 0)
     {1: 2, 1: 3}
