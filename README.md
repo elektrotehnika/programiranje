@@ -50,7 +50,7 @@
   7\.  | [VII][пVII]   | [09][демо09]                | [4.2][крп4.2]                 | [вежбе 07][вежбе07] | [4.2][з4.2]
   8\.  | [VIII][пVIII] | [10][демо10] и [11][демо11] | [2.5][крп2.5]                 | [вежбе 08][вежбе08] | [4.3][з4.3]
   9\.  | [IX][пIX]     | [12][демо12]                | [2.7][крп2.7]                 | [вежбе 09][вежбе09] | [5.1][з5.1]
- 10\.  | [X][пX]       |                             | [2.9][крп2.9]                 |                     | [5.2][з5.2]
+ 10\.  | [X][пX]       | [13][демо13] и [14][демо14] | [2.9][крп2.9]                 |                     | [5.2][з5.2]
  11\.  | [XI][пXI]     |                             | [2.8][крп2.8]                 |                     | [5.3][з5.3] и [5.4][з5.4]
  12\.  | [XII][пXII]   |                             | [3.1][крп3.1] и [3.2][крп3.2] |                     | [6.1][з6.1]
  13\.  |  XIII         |                             | [3.3][крп3.3]                 |                     | [6.2][з6.2]
@@ -185,6 +185,7 @@
 <summary>Додатно, лаки и средње тешки задаци, могу се вежбати и на:</summary>
 
 * [AlgoExpert][AlgoExpert]
+* [Algoge][Algoge]
 * [CodeChef][CodeChef]
 * [Codeforces][Codeforces]
 * [Coderbyte][Coderbyte]
@@ -203,6 +204,7 @@
 </details>
 
 [AlgoExpert]: https://www.algoexpert.io
+[Algoge]: http://algoge.com
 [CodeChef]: https://www.codechef.com
 [Codeforces]: https://codeforces.com
 [Coderbyte]: https://www.coderbyte.com
@@ -217,6 +219,10 @@
 [LeetCode]: https://leetcode.com
 [Pramp]: https://www.pramp.com
 [Topcoder]: https://www.topcoder.com
+
+## Дискорд сервер
+
+На званичан [Дискорд](https://discord.com) сервер предмета могуће је прикључити се преко [позивнице](https://discord.gg/qqAQQZckU4).
 
 ## Пријава [Петља](https://www.petlja.org) налога за полагање колоквијума и испита
 
