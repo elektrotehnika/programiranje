@@ -1,79 +1,79 @@
 # Стабла
 
-def tree(label, branches=[]):
-    for branch in branches:
-        assert is_tree(branch), 'branches must be trees'
-    return [label] + list(branches)
+def стабло(ознака, гране=[]):
+    for грана in гране:
+        assert да_ли_је_стабло(грана), 'гране морају бити стабла'
+    return [ознака] + list(гране)
 
-def label(tree):
-    return tree[0]
+def ознака(стабло):
+    return стабло[0]
 
-def branches(tree):
-    return tree[1:]
+def гране(стабло):
+    return стабло[1:]
 
-def is_tree(tree):
-    if type(tree) != list or len(tree) < 1:
+def да_ли_је_стабло(стабло):
+    if type(стабло) != list or len(стабло) < 1:
         return False
-    for branch in branches(tree):
-        if not is_tree(branch):
+    for грана in гране(стабло):
+        if not да_ли_је_стабло(грана):
             return False
     return True
 
-def is_leaf(tree):
-    return not branches(tree)
+def да_ли_је_лист(стабло):
+    return not гране(стабло)
 
 ### +++ === АПСТРАКЦИЈСКА БАРИЈЕРА === +++ ###
 
-def fib_tree(n):
-    """Construct a Fibonacci tree.
+def фиб_стабло(n):
+    """Прави Фибоначијево стабло.
 
-    >>> fib_tree(1)
+    >>> фиб_стабло(1)
     [1]
-    >>> fib_tree(3)
+    >>> фиб_стабло(3)
     [2, [1], [1, [0], [1]]]
-    >>> fib_tree(5)
+    >>> фиб_стабло(5)
     [5, [2, [1], [1, [0], [1]]], [3, [1, [0], [1]], [2, [1], [1, [0], [1]]]]]
     """
     if n == 0 or n == 1:
-        return tree(n)
+        return стабло(n)
     else:
-        left = fib_tree(n-2)
-        right = fib_tree(n-1)
-        fib_n = label(left) + label(right)
-        return tree(fib_n, [left, right])
+        лева = фиб_стабло(n-2)
+        десна = фиб_стабло(n-1)
+        фиб_n = ознака(лева) + ознака(десна)
+        return стабло(фиб_n, [лева, десна])
 
-def count_leaves(t):
-    """The number of leaves in tree.
+def изброј_листове(с):
+    """Број листова у стаблу.
 
-    >>> count_leaves(fib_tree(5))
+    >>> изброј_листове(фиб_стабло(5))
     8
     """
-    if is_leaf(t):
+    if да_ли_је_лист(с):
         return 1
     else:
-        return sum([count_leaves(b) for b in branches(t)])
+        return sum([изброј_листове(г) for г in гране(с)])
 
-def leaves(tree):
-    """Return a list containing the leaf labels of tree.
+def листови(стабло):
+    """Враћа низ ознака свих листова у задатом стаблу.
 
-    >>> leaves(fib_tree(5))
+    >>> листови(фиб_стабло(5))
     [1, 0, 1, 0, 1, 1, 0, 1]
     """
-    if is_leaf(tree):
-        return [label(tree)]
+    if да_ли_је_лист(стабло):
+        return [ознака(стабло)]
     else:
-        return sum([leaves(b) for b in branches(tree)], [])
+        return sum([листови(г) for г in гране(стабло)], [])
 
-def print_tree(t, indent=0):
-    """Print a representation of this tree in which each label is
-    indented by two spaces times its depth from the root.
+def print_стабло(с, удубљење=0):
+    """Исписује репрезентацију стабла у коме је свака ознака
+       увучена са два размака помножена са дубином од корена.
 
-    >>> print_tree(tree(1))
+    >>> print_стабло(стабло(1))
     1
-    >>> print_tree(tree(1, [tree(2)]))
+    >>> print_стабло(стабло(1, [стабло(2)]))
     1
       2
-    >>> print_tree(fib_tree(4))
+    >>> print_стабло(фиб_стабло(4))
     3
       1
         0
@@ -84,15 +84,14 @@ def print_tree(t, indent=0):
           0
           1
     """
-    print('  ' * indent + str(label(t)))
-    for b in branches(t):
-        print_tree(b, indent + 1)
+    print('  ' * удубљење + str(ознака(с)))
+    for г in гране(с):
+        print_стабло(г, удубљење + 1)
 
-def increment_leaves(t):
-    """Return a tree like t but with leaf labels incremented.
+def увећај_листове(с):
+    """Враћа стабло као с са увећаним ознакама свих листова.
 
-
-    >>> print_tree(increment_leaves(fib_tree(4)))
+    >>> print_стабло(увећај_листове(фиб_стабло(4)))
     3
       1
         1
@@ -103,16 +102,16 @@ def increment_leaves(t):
           1
           2
     """
-    if is_leaf(t):
-        return tree(label(t) + 1)
+    if да_ли_је_лист(с):
+        return стабло(ознака(с) + 1)
     else:
-        bs = [increment_leaves(b) for b in branches(t)]
-        return tree(label(t), bs)
+        грне = [увећај_листове(г) for г in гране(с)]
+        return стабло(ознака(с), грне)
 
-def increment(t):
-    """Return a tree like t but with all labels incremented.
+def увећај(с):
+    """Враћа стабло као с са увећаним свим ознакама.
 
-    >>> print_tree(increment(fib_tree(4)))
+    >>> print_стабло(увећај(фиб_стабло(4)))
     4
       2
         1
@@ -123,66 +122,66 @@ def increment(t):
           1
           2
     """
-    return tree(label(t) + 1, [increment(b) for b in branches(t)])
+    return стабло(ознака(с) + 1, [увећај(г) for г in гране(с)])
 
 # Order
 
-def fact(n):
-    """Return n * n-1 * ... * 1.
+def факт(n):
+    """Враћа n * n-1 * ... * 1.
 
-    >>> fact(4)
+    >>> факт(4)
     24
     """
     if n == 0:
         return 1
     else:
-        return n * fact(n - 1)
+        return n * факт(n - 1)
 
-def fact_tail(n):
-    """Return n * n-1 * ... * 1.
+def факт_реп(n):
+    """Враћа n * n-1 * ... * 1.
 
-    >>> fact_tail(4)
+    >>> факт_реп(4)
     24
     """
-    return fact_times(n, 1)
+    return факт_пута(n, 1)
 
-def fact_times(n, k):
-    """Return k * n * n-1 * ... * 1.
+def факт_пута(n, k):
+    """Враћа k * n * n-1 * ... * 1.
 
-    >>> fact_times(4, 3)
+    >>> факт_пута(4, 3)
     72
     """
     if n == 0:
         return k
     else:
-        return fact_times(n - 1, k * n)
+        return факт_пута(n - 1, k * n)
 
-haste = tree('h', [tree('a', [tree('s'), tree('t')]), tree('e')])
+журба = стабло('ж', [стабло('у', [стабло('р'), стабло('б')]), стабло('а')])
 
-def print_sums(t, path_sum):
-    """Print the sum of labels along the path from the root to each leaf.
+def print_збирови(с, збир_путање):
+    """Исписује збирове ознака на путањама од корена до сваког листа.
 
-    >>> print_sums(tree(3, [tree(4), tree(5, [tree(6)])]), 0)
+    >>> print_збирови(стабло(3, [стабло(4), стабло(5, [стабло(6)])]), 0)
     7
     14
-    >>> print_sums(haste, '')
-    has
-    hat
-    he
+    >>> print_збирови(журба, '')
+    жур
+    жуб
+    жа
     """
-    path_sum = path_sum + label(t)
-    if is_leaf(t):
-        print(path_sum)
+    збир_путање = збир_путање + ознака(с)
+    if да_ли_је_лист(с):
+        print(збир_путање)
     else:
-        for branch in branches(t):
-            print_sums(branch, path_sum)
+        for грана in гране(с):
+            print_збирови(грана, збир_путање)
 
-def count_paths(t, total):
-    """Return the number of paths from the root to any node in t
-    for which the labels along the path sum to total.
+def изброј_путање(с, збир):
+    """Враћа број путања од корена до ма ког чвора у с
+       за које је збир ознака на путањи једнак збиру.
 
-    >>> t = tree(3, [tree(-1), tree(1, [tree(2, [tree(1)]), tree(3)]), tree(1, [tree(-1)])])
-    >>> print_tree(t)
+    >>> с = стабло(3, [стабло(-1), стабло(1, [стабло(2, [стабло(1)]), стабло(3)]), стабло(1, [стабло(-1)])])
+    >>> print_стабло(с)
     3
       -1
       1
@@ -191,19 +190,19 @@ def count_paths(t, total):
         3
       1
         -1
-    >>> count_paths(t, 3)
+    >>> изброј_путање(с, 3)
     2
-    >>> count_paths(t, 4)
+    >>> изброј_путање(с, 4)
     2
-    >>> count_paths(t, 5)
+    >>> изброј_путање(с, 5)
     0
-    >>> count_paths(t, 6)
+    >>> изброј_путање(с, 6)
     1
-    >>> count_paths(t, 7)
+    >>> изброј_путање(с, 7)
     2
     """
-    if label(t) == total:
-        found = 1
+    if ознака(с) == збир:
+        нађена = 1
     else:
-        found = 0
-    return found + sum([count_paths(b, total - label(t)) for b in branches(t)])
+        нађена = 0
+    return нађена + sum([изброј_путање(г, збир - ознака(с)) for г in гране(с)])
