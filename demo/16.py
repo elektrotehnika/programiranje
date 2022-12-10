@@ -55,7 +55,7 @@ def одбројевање_for(k):
     """
     if k > 0:
         yield k
-        for x in одбројевање(k-1):
+        for x in одбројевање_for(k-1):
             yield x
 
 def одбројевање(k):
