@@ -115,23 +115,23 @@ class Стабло:
         return 'Стабло({0}{1})'.format(repr(self.ознака), грана_str)
 
     def __str__(self):
-        return '\n'.join(self.indented())
+        return '\n'.join(self.увучено())
 
-    def indented(self):
-        lines = []
+    def увучено(self):
+        редови = []
         for грана in self.гране:
-            for line in грана.indented():
-                lines.append('  ' + line)
-        return [str(self.ознака)] + lines
+            for ред in грана.увучено():
+                редови.append('  ' + ред)
+        return [str(self.ознака)] + редови
 
     def да_ли_је_лист(self):
         return not self.гране
 
 
-def fib_tree(n):
+def фиб_стабло(n):
     """Фибоначијево стабло.
 
-    >>> print(fib_tree(4))
+    >>> print(фиб_стабло(4))
     3
       1
         0
@@ -145,43 +145,43 @@ def fib_tree(n):
     if n == 0 or n == 1:
         return Стабло(n)
     else:
-        left = fib_tree(n-2)
-        right = fib_tree(n-1)
-        fib_n = left.ознака + right.ознака
-        return Стабло(fib_n, [left, right])
+        лево = фиб_стабло(n-2)
+        десно = фиб_стабло(n-1)
+        фиб_n = лево.ознака + десно.ознака
+        return Стабло(фиб_n, [лево, десно])
 
 
-def leaves(tree):
-    """Return the leaf labels of a tree.
+def листови(стабло):
+    """Враћа низ ознака свих листова у задатом стаблу.
 
-    >>> leaves(fib_tree(4))
+    >>> листови(фиб_стабло(4))
     [0, 1, 1, 0, 1]
     """
-    if tree.да_ли_је_лист():
-        return [tree.ознака]
+    if стабло.да_ли_је_лист():
+        return [стабло.ознака]
     else:
-        return sum([leaves(b) for b in tree.гране], [])
+        return sum([листови(г) for г in стабло.гране], [])
 
 
-def height(tree):
-    """The height of a tree."""
-    if tree.да_ли_је_лист():
+def висина(стабло):
+    """Враћа висину стабла."""
+    if стабло.да_ли_је_лист():
         return 0
     else:
-        return 1 + max([height(b) for b in tree.гране])
+        return 1 + max([висина(г) for г in стабло.гране])
 
 
-def prune(t, n):
-    """Prune each sub-tree whose root label is n.
+def орежи(с, к):
+    """Орезује сва подстабла чија је ознака корена једнака к.
 
-    >>> t = fib_tree(5)
-    >>> prune(t, 1)
-    >>> print(t)
+    >>> с = фиб_стабло(5)
+    >>> орежи(с, 1)
+    >>> print(с)
     5
       2
       3
         2
     """
-    t.гране = [b for b in t.гране if b.ознака != n]
-    for b in t.гране:
-        prune(b, n)
+    с.гране = [г for г in с.гране if г.ознака != к]
+    for г in с.гране:
+        орежи(г, к)
