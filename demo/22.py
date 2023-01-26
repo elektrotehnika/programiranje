@@ -58,6 +58,8 @@ def највећи_збир_суседа(с):
     >>> највећи_збир_суседа([-4, 3, -2, -3, 2, -4])
     1
     """
+    return max(map(sum, zip(с, с[1:])))
+    # ИЛИ
     return max([x + y for x, y in zip(с[:-1], с[1:])])
     # ИЛИ
     return max([с[i] + с[i + 1] for i in range(len(с) - 1)])
@@ -70,6 +72,8 @@ def речник_цифара(с):
     >>> речник_цифара([5, 8, 13, 21, 34, 55, 89])
     {1: [21], 3: [13], 4: [34], 5: [5, 55], 8: [8], 9: [89]}
     """
+    return {i: [x for x in с if i == x % 10] for i in sorted([x % 10 for x in с])}
+    # ИЛИ
     return {i: [x for x in с if x % 10 == i] for i in range(10) if any([x % 10 == i for x in с])}
     # ИЛИ
     последња_цифра = list(map(lambda x: x % 10, с))
@@ -92,6 +96,8 @@ def сви_имају_једнаког(с):
     return all(map(lambda x: с.count(x) > 1, с))
     # ИЛИ
     return min([с.count(x) > 1 for x in с]) > 1
+    # ИЛИ
+    return all([s.count(x) > 1 for x in s])
 
 # Уланчане листе
 
