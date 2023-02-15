@@ -6,9 +6,7 @@
 
 ## Обавештења
 
-Прелиминарни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у јануарском испитном року 2023. године.
-
-Упис оцена, увид у радове и жалбе на резултате испита биће одржан у уторак 31. јануара 2023. године у 10 часова у учионици Д-66.
+Коначни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у јануарском испитном року 2023. године.
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
