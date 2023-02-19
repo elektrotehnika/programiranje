@@ -6,7 +6,7 @@
 
 ## Обавештења
 
-Коначни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у јануарском испитном року 2023. године.
+Прелиминарни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у фебруарском испитном року 2023. године.
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
