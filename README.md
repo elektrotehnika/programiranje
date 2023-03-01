@@ -8,6 +8,8 @@
 
 Прелиминарни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у фебруарском испитном року 2023. године.
 
+Увид у радове и жалбе на резултате колоквијума биће одржане у четвртак 2. марта 2023. године од 18:00 у учионици Д-62.
+
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
 
