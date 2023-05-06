@@ -6,7 +6,9 @@
 
 ## Обавештења
 
-Коначни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у јануарском и фебруарском испитном року 2023. године.
+Коначни [резултати испита](https://docs.google.com/spreadsheets/d/1syrXJXcCAjmGb5VkbQRWvpLY4t4NFNxHJCNovCOVHFM) из Основа програмирања у јануарском, фебруарском и априлском испитном року 2023. године.
+
+Жалбе на резултате априлског испитног рока, као и увид у радове и упис оцена, биће одржан у понедељак 8. маја 2023. године у 11:15 у учионици Д-62.
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
