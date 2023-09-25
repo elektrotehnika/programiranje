@@ -245,7 +245,7 @@
 
 ## Пријава [Петља](https://www.petlja.org) налога за полагање колоквијума и испита
 
-[Формулар](https://docs.google.com/forms/d/e/1FAIpQLSfpjGc9cLazVEJqyVB7WNSlvoZQC7CTPnYXCcJ72eNtiTQg8Q/viewform)
+[Формулар](https://docs.google.com/forms/d/e/1FAIpQLSebrOuoGoDcmtBny8NTEKRnSJzKv5_lcD6Q0RtdGuhCuzNzPA/viewform)
 
 Рок за попуњавање формулара, односно пријаву [Петља](https://www.petlja.org) налога је 30. октобар 2022. године. Свака закаснела пријава као и промена налога повлачи са собом губитак једног поена.
 
