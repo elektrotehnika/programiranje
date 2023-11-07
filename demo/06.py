@@ -1,3 +1,11 @@
+# Окружења анонимних ламбда функција
+
+а = 1
+def f(g):
+    а = 2
+    return lambda y: а * g(y)
+резултат = f(lambda y: а + y)(а)
+
 # Наредба return
 
 def крај(n, c):
@@ -105,7 +113,7 @@ def f(x):
     return g(x - 1)
 
 def g(y):
-    return abs(h(y) - h(1 / y))  # избрисати заграду
+    return abs(h(y) - h(1 / y))  # додати "*" непосредно након "/" и избрисати заграду
 
 def h(z):
     return z * z  # избрисати return
