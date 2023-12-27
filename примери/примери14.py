@@ -304,17 +304,7 @@ def preOrder(root):
 	preOrder(root.right)
 
 
-# Конструкција бинарног стабла
-#		      10
-#		     /
-#		    8
-#	       /
-#	      7
-#	     /
-#	    6
-#	   /
-#     5
-
+# Конструкција бинарног стабла:
 root = Node(10)
 root.left = Node(8) 
 root.left.left = Node(7) 
