@@ -7,10 +7,12 @@
 
 ## Обавештења
 
-Постављени су [прелиминарни резултати првог колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0). Увид у радове и евентуалне жалбе биће обављен у понедељак, 25. новембра у учионици 201, са почетком у 11:30.
+Објављени су [коначни резултати колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0).
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
+
+Постављени су [прелиминарни резултати првог колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0). Увид у радове и евентуалне жалбе биће обављен у понедељак, 25. новембра у учионици 201, са почетком у 11:30.
 
 У петак, 22. новембра, у 16:15, у учионици Д-66, одржаће се консултације поводом предстојећег колоквијума.
 
