@@ -189,7 +189,7 @@
 * В. Миловановић, [Компоновање рачунарских програма](https://github.com/milovanovic/krp)
 
 Помоћни уџбеник:
-* М. Ковачевић, [Основи програмирања у Пајтону](https://www.grf.bg.ac.rs/~milos/opp_e101.pdf)
+* М. Ковачевић, [Основи програмирања у Пајтону](https://www.grf.bg.ac.rs/~milos/opp_e101.pdf), [друго допуњено издање](https://www.grf.bg.ac.rs/~milos/main2.pdf)
 
 Збирка задатака:
 * [Методичка збирка задатака из основа програмирања](https://www.petlja.org/biblioteka/r/kursevi/Zbirka-python)
