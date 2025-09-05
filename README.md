@@ -11,12 +11,12 @@
 
 <br>
 
-Објављени су [коначни резултати колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0).
+Објављени су [прелиминарни резултати испита у јануарском испитном року](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=810059750#gid=810059750). Увид у радове, жалбе на резултате и упис оцена биће одржани у среду, 10. септембра, у лабораторији за електротехнику (Д-62).
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
 
-
+Објављени су [коначни резултати колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0).
 
 Постављени су [прелиминарни резултати првог колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0). Увид у радове и евентуалне жалбе биће обављен у понедељак, 25. новембра у учионици 201, са почетком у 11:30.
 
