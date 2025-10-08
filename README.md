@@ -11,10 +11,12 @@
 
 <br>
 
-[Прелиминарни резултати испита у фебруарском испитном року](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts). Увид у радове, жалбе на резултате и упис оцена биће одржани у среду, 1. октобра, у 12 часова у лабораторији за електротехнику (Д-62).
+[Прелиминарни резултати испита у јунском испитном року](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts). Увид у радове, жалбе на резултате и упис оцена биће одржани у четвртак, 9. октобра, у 14 часова у лабораторији за електротехнику (Д-62).
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
+
+[Прелиминарни резултати испита у фебруарском испитном року](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts). Увид у радове, жалбе на резултате и упис оцена биће одржани у среду, 1. октобра, у 12 часова у лабораторији за електротехнику (Д-62).
 
 Објављени су [коначни резултати колоквијума](https://docs.google.com/spreadsheets/d/1sNzWW3D4o6ViRjY6uwICJ02lVwWyPtvGybaq2xnR3Ts/edit?gid=0#gid=0).
 
