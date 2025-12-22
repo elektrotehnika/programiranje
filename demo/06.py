@@ -92,6 +92,10 @@ def има_велики_корен(x):
     False
     """
     return x > 0 and sqrt(x) > 10
+    #if x > 0:
+    #    if sqrt(x) > 10:
+    #        return True
+    #return False
 
 def разумно(n):
     """Да ли је N довољно мало да се 1/N може представити?
@@ -119,3 +123,8 @@ def h(z):
     return z * z  # избрисати return
 
 print(f(12))  # избрисати 2
+
+# Шта исписује следећи израз?
+
+s = "Куц"
+print(print(print(s, s) or print("Ко је тамо?")), "Ко?")
