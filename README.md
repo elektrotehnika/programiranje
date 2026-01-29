@@ -11,10 +11,17 @@
 
 <br>
 
-Објављени су [прелиминарни резултати колоквијума](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) у школској 2025/2026. години. Увид у радове и жалбе на резултате одржаће се сутра, 26. јануара, у 11 часова у сали 201.
+Објављени су [коначни резултати колоквијума](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) у школској 2025/2026. години.
+
+<br>
 
 <details markdown='block'>
 <summary>Претходна обавештења </summary>
+  
+<br>
+  
+Објављени су [прелиминарни резултати колоквијума](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) у школској 2025/2026. години. Увид у радове и жалбе на резултате одржаће се сутра, 26. јануара, у 11 часова у сали 201.
+
 За рад колоквијума неопходно је попунити пријаву преко [формулара](https://docs.google.com/forms/d/e/1FAIpQLSeJR90BaKzhTQ0zy31pYhxgPC-mpn4Us_QAAzA_nGtiYflDyA/viewform) најкасније до среде 14. јануара 2026. године. Свака закаснела пријава повлачи са собом немогућност рада колоквијума или губитак једног поена на истом за сваки дан закаснеле пријаве.
 
 Постављен је [формулар](https://docs.google.com/forms/d/e/1FAIpQLSdthA4tNBja5-4KUThrsMdx75YFAgdV08FmV4w6S8IpxnQASg/viewform) за пријаву Петља налога.
