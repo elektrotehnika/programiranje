@@ -314,6 +314,13 @@
 
 <br>
 
+<details markdown='block'>
+<summary>Испити 2026</summary>
+* [испит јануар](./испити/јан26.md)
+</details>
+
+<br>
+
 ## Дискорд сервер
 
 <br>
