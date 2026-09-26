@@ -11,7 +11,7 @@
 
 <br>
 
-Објављени су [прелиминарни резултати испита у августовском испитном року](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) школске 2025/2026. године. Термин увида у радове и уписа оцена биће заказан накнадно.
+Објављени су [прелиминарни резултати испита у септембарском испитном року](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) школске 2025/2026. године. Термин увида у радове и уписа оцена биће заказан накнадно.
 
 <br>
 
@@ -19,6 +19,8 @@
 <summary>Претходна обавештења </summary>
   
 <br>
+
+Објављени су [прелиминарни резултати испита у августовском испитном року](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) школске 2025/2026. године. Термин увида у радове и уписа оцена биће заказан накнадно.
 
 Објављени су [прелиминарни резултати испита у јулском испитном року](https://docs.google.com/spreadsheets/d/19S5tACOAUzIQE_hzXzSP1EoF4RFMYG9BD4GEyHJKk9s/edit?usp=sharing) у школској 2025/2026. години.  Термин увида у радове и уписа оцена биће заказан накнадно.
 
